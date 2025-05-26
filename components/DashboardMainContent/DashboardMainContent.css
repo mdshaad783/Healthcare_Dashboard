@@ -1,0 +1,56 @@
+/* src/components/DashboardMainContent/DashboardMainContent.css */
+
+.dashboard-main-content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 24px;
+  background-color: #f5f7fa;
+}
+
+.overview-section,
+.upcoming-schedule-section {
+  width: 100%;
+}
+
+.calendar-activity-container {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+/* Ensure responsiveness */
+@media (max-width: 1024px) {
+  .calendar-activity-container {
+    flex-direction: column;
+  }
+}
+/* src/components/DashboardMainContent/DashboardMainContent.css */
+
+.dashboard-main-content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 24px;
+  background-color: #f5f7fa;
+}
+
+.overview-section,
+.upcoming-schedule-section {
+  width: 100%;
+}
+
+.calendar-activity-container {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+/* Ensure responsiveness */
+@media (max-width: 1024px) {
+  .calendar-activity-container {
+    flex-direction: column;
+  }
+}

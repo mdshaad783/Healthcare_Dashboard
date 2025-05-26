@@ -1,0 +1,23 @@
+.sidebar {
+  width: 240px;
+  background-color: #e3ebf6;
+  padding: 16px;
+  height: 100vh;
+}
+
+.sidebar-title {
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 12px 0;
+  padding: 8px;
+  background-color: white;
+  border-radius: 6px;
+}

@@ -1,0 +1,48 @@
+.simple-card {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 12px 16px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  margin-bottom: 12px;
+  transition: transform 0.2s ease;
+}
+
+.simple-card:hover {
+  transform: translateY(-2px);
+}
+
+.icon {
+  background-color: #e6f0ff;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+}
+
+.details {
+  flex: 1;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333333;
+  margin: 0;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  color: #555;
+  margin-top: 4px;
+}
+
+.clock-icon {
+  margin-right: 6px;
+  color: #888;
+}

@@ -1,0 +1,45 @@
+/* src/components/DashboardMainContent/HealthStatusCards.css */
+
+.health-status-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 200px;
+}
+
+.health-card {
+  background-color: #ffffff;
+  padding: 16px 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.health-card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.status-dot.healthy {
+  background-color: #28c76f;
+}
+
+.status-dot.critical {
+  background-color: #ea5455;
+}
+
+.status-dot.warning {
+  background-color: #ff9f43;
+}
+
+.health-date {
+  font-size: 13px;
+  color: #888;
+}
