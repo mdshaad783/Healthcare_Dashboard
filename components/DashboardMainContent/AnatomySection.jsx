@@ -9,7 +9,7 @@ const AnatomySection = () => {
     <div className="anatomy-section">
       <div className="anatomy-image-container">
         <img
-          src="../../src/assets/anatomy-placeholder.jpg"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/202403_human_anatomy_skeleton_and_organs.svg/640px-202403_human_anatomy_skeleton_and_organs.svg.png"
           alt="Human Anatomy"
           className="anatomy-image"
         />
